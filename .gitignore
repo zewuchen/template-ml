@@ -1,0 +1,109 @@
+# =========================
+# PYTHON
+# =========================
+_pycache_/
+*.py[cod]
+*$py.class
+
+# =========================
+# VIRTUAL ENVIRONMENTS
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# JUPYTER / NOTEBOOKS
+# =========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# =========================
+# MACHINE LEARNING ARTIFACTS
+# =========================
+checkpoints/
+
+*.joblib
+*.h5
+*.pt
+*.onnx
+*.ckpt
+
+# =========================
+# DATA FILES
+# =========================
+*.parquet
+*.feather
+*.avro
+
+# =========================
+# LOGS & OUTPUTS
+# =========================
+logs/
+*.log
+outputs/
+reports/
+
+# =========================
+# CACHE / TEMP
+# =========================
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+htmlcov/
+dist/
+build/
+
+# =========================
+# TEST / COVERAGE
+# =========================
+.coverage
+.tox/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.iml
+.cursorignore
+.cursorindexingignore
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CLOUD / SECRETS
+# =========================
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# =========================
+# DOCKER
+# =========================
+docker-compose.override.yml
+
+# =========================
+# AIRFLOW
+# =========================
+airflow/logs/
+airflow/dags/_pycache_/
+
+# =========================
+# MLFLOW
+# =========================
+mlruns/
+
+# =========================
+# EXPERIMENTS
+# =========================
+experiments/
+runs/
